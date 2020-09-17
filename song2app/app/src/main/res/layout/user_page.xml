@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:baselineAligned="true"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="60px"
+    android:layout_marginRight="50px"
+    android:layout_marginTop="50px"
+    android:layout_gravity="center"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="195dp"
+            android:src="@drawable/song"/>
+
+        <TextView
+            android:id="@+id/present"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="10px"
+            android:layout_marginLeft="10px"
+            android:textColor="#000000"
+            android:textSize="9pt" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/todoBtn"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="50px"
+            android:backgroundTint="@color/color12"
+            android:background="@drawable/corner"
+            android:onClick="onClicktodo"
+            android:text="to-do list" />
+
+        <Button
+            android:id="@+id/Btntimetable"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/color4"
+            android:background="@drawable/corner"
+            android:onClick="onClickTimetable"
+            android:text="time table" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/FriendSearchBtn"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_above="@+id/SetBeaconBtn"
+            android:layout_marginRight="50px"
+            android:layout_toStartOf="@+id/todoBtn"
+            android:backgroundTint="@color/color11"
+            android:background="@drawable/corner"
+            android:onClick="onClickFriendSearch"
+            android:text="Add Friend" />
+
+        <Button
+            android:id="@+id/ViewFriendlist"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@color/color1"
+            android:background="@drawable/corner"
+            android:onClick="onClickViewFriendlist"
+            android:text="friend view" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10px">
+
+        <Button
+            android:id="@+id/SetBtn"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="50px"
+            android:backgroundTint="@color/color14"
+            android:background="@drawable/corner"
+            android:onClick="onClickSet"
+            android:text="Beacon ON/OFF" />
+
+        <Button
+            android:id="@+id/BtnLogout"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:backgroundTint="@color/color7"
+            android:background="@drawable/corner"
+            android:text="Logout" />
+    </LinearLayout>
+</LinearLayout>

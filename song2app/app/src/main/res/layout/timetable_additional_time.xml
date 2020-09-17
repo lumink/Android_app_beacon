@@ -1,0 +1,73 @@
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/daySpinner"
+        android:layout_below="@+id/frameLayout"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/day_array"
+        android:layout_weight="1"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="2"
+        android:id="@+id/startHour"
+        android:layout_weight="2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="2"
+        android:id="@+id/startMin"
+        android:layout_weight="2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="2"
+        android:id="@+id/endHour"
+        android:layout_weight="2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:layout_weight="1" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:maxLength="2"
+        android:id="@+id/endMin"
+        android:layout_weight="2" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:id="@+id/deleteLectureButton"
+        android:text=" 삭제 " />
+</LinearLayout>

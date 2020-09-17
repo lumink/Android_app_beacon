@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="choojeok.song2app.Timetable.LectureViewActivity"
+    android:padding="20dp"
+    android:background="#00000000"
+    android:gravity="center_horizontal">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/timeAdderLayout">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="140px"
+                android:paddingBottom="10dp"
+                android:weightSum="1.0">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:textSize="22sp"
+                    android:text="수업" />
+                <Button
+                    android:layout_width="50sp"
+                    android:layout_height="25sp"
+                    android:layout_weight="0.1"
+                    android:layout_marginRight="5sp"
+                    android:background="@color/color5"
+                    android:id="@+id/alarmSetButton"
+                    android:text="알람 설정"
+                    android:layout_gravity="right"/>
+                <Button
+                    android:layout_width="25sp"
+                    android:layout_height="25sp"
+                    android:layout_weight="0.1"
+                    android:layout_marginRight="5sp"
+                    android:background="@color/color5"
+                    android:id="@+id/deleteLectureButton"
+                    android:text="삭제"
+                    android:layout_gravity="right"/>
+                <Button
+                    android:layout_width="25sp"
+                    android:layout_height="25sp"
+                    android:layout_weight="0.1"
+                    android:background="@color/color5"
+                    android:id="@+id/finishButton"
+                    android:text="완료"
+                    android:layout_gravity="right"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="160px">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:text="수업명"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:id="@+id/nameEditText"
+                    android:layout_gravity="center"
+                    android:focusable="false"
+                    android:clickable="false" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="160px">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:text="교수명"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:id="@+id/profEditText"
+                    android:layout_gravity="center"
+                    android:focusable="false"
+                    android:clickable="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="160px">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.67"
+                    android:layout_gravity="center"
+                    android:text="장소명"/>
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="4"
+                    android:id="@+id/placeEditText"
+                    android:layout_gravity="center"
+                    android:focusable="false"
+                    android:clickable="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/timeLinearLayout">
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

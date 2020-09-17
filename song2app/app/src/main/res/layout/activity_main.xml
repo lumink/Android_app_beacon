@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:gravity="center"
+    >
+
+    <ImageButton
+        android:background="#00000000"
+        android:id="@+id/img_app_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app_mark"
+        android:drawingCacheQuality="high"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHOOJEOK CHOOJEOK"
+        android:gravity="center"
+        android:textColor="#367b11"
+        android:textSize="30px"
+        android:textStyle="bold"
+        android:paddingTop="20px"
+        android:paddingBottom="10px"
+        android:shadowColor="#999999"
+        android:shadowRadius="5"
+        />
+</LinearLayout>

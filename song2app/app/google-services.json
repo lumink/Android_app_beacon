@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "324682870012",
+    "firebase_url": "https://song2app-ae9ff.firebaseio.com",
+    "project_id": "song2app-ae9ff",
+    "storage_bucket": "song2app-ae9ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324682870012:android:695cb28e3ed034bf",
+        "android_client_info": {
+          "package_name": "choojeok.song2app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324682870012-39qfth4jqnv910b3ksv50epjg7gbqi6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9wJs0snz7L2O1XSBTSzK6KCrHuq4Qa_4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

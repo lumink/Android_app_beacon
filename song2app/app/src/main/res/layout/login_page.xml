@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="100px"
+    android:layout_marginRight="100px"
+    android:layout_marginTop="120px"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context="choojeok.song2app.Login_Activity.Login">
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/song" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120px"
+        android:text="ID"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="110px"
+        android:background="@color/mint"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/id" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:text="PASSWORD" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="110px"
+        android:inputType="textPassword"
+        android:background="@color/mint"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/password" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300px"
+        android:layout_height="100px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80px"
+        android:onClick="insert"
+        android:text="Login"
+        android:background="@color/color5" />
+
+    <Button
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text="아이디가 없으신가요?"
+        android:textStyle="italic"
+        android:layout_marginTop="20px"
+        android:background="#00ff0000"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClickJoin"
+        android:id="@+id/JoinBtn" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00ff0000"
+        android:id="@+id/result" />
+
+</LinearLayout>

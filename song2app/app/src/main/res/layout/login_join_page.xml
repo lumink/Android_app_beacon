@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="100px"
+    android:layout_marginRight="100px"
+    android:layout_marginTop="120px"
+    tools:context="choojeok.song2app.Login_Activity.Join">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/song" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:text="ID"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="110px"
+        android:background="@color/mint"
+        android:id="@+id/joinId" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:layout_marginTop="50px"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="110px"
+        android:layout_marginTop="10px"
+        android:background="@color/mint"
+        android:id="@+id/joinPassword" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:text="NICKNAME"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="110px"
+        android:layout_marginTop="10px"
+        android:background="@color/mint"
+        android:id="@+id/joinNickname" />
+
+    <Button
+        android:layout_width="300px"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="100px"
+        android:background="@color/color5"
+        android:layout_marginTop="80px"
+        android:text="JOIN"
+        android:onClick="insert"
+        android:id="@+id/button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/result" />
+</LinearLayout>

@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">song2app</string>
+    <string name="nickname">nickname</string>
+    <string name="id">id</string>
+    
+    <string name="location_permission_granted">Location permission has been granted. RECO SDK can now work properly.</string>
+    <string name="location_permission_not_granted">Location permission for this application is denied. RECO SDK may not work properly.</string>
+    <string name="location_permission_rationale">Location permission is needed to monitor or range beacons.</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string-array name="day_array">
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+    </string-array>
+
+    <string-array name="timetable">
+        <item>  </item><item>월</item><item>화</item><item>수</item><item>목</item><item>금</item>
+        <item> 9</item><item> </item><item> </item><item> </item><item> </item><item> </item>
+        <item> 10</item><item> </item><item> </item><item> </item><item> </item><item> </item>
+        <item> 11</item><item> </item><item> </item><item> </item><item> </item><item> </item>
+        <item> 12</item><item> </item><item> </item><item> </item><item> </item><item> </item>
+        <item> 1</item><item> </item><item> </item><item> </item><item> </item><item> </item>
+        <item> 2</item><item> </item><item> </item><item> </item><item> </item><item> </item>
+        <item> 3</item><item> </item><item> </item><item> </item><item> </item><item> </item>
+        <item> 4</item><item> </item><item> </item><item> </item><item> </item><item> </item>
+        <item> 5</item><item> </item><item> </item><item> </item><item> </item><item> </item>
+        <item> 6</item><item> </item><item> </item><item> </item><item> </item><item> </item>
+        <item> 7</item><item> </item><item> </item><item> </item><item> </item><item> </item>
+    </string-array>
+
+    <color name="bright_pink">#FF007F</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FF7F00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="green">#00FF00</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="azure">#007FFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="violet">#7F00FF</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="mint">#D0ECEA</color>
+
+    <color name="color1">#76D3DE</color>
+    <color name="color2">#D0ECEA</color>
+    <color name="color3">#FFFEE4</color>
+    <color name="color4">#FFE1C9</color>
+    <color name="color5">#FAC7B4</color>
+    <color name="color6">#FCA89D</color>
+    <color name="color7">#998B82</color>
+
+    <color name="color8">#4F3C34</color>
+    <color name="color9">#00EBE9</color>
+    <color name="color10">#FFC7B9</color>
+    <color name="color11">#E3D5C5</color>
+    <color name="color12">#00D8AF</color>
+    <color name="color13">#E76D43</color>
+    <color name="color14">#F99072</color>
+
+    <string-array name="table_colors">
+        <item>@color/color1</item>
+        <item>@color/color2</item>
+        <item>@color/color9</item>
+        <item>@color/color12</item>
+        <item>@color/color7</item>
+        <item>@color/color8</item>
+    </string-array>
+
+    <string-array name="table_position">
+        <item>명신관 309호</item>
+        <item>명신관 308호</item>
+        <item>명신관 413호</item>
+        <item>명신관 414호</item>
+    </string-array>
+
+</resources>
